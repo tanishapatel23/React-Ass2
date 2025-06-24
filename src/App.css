@@ -1,0 +1,72 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #c2e9fb, #a1c4fd);
+  min-height: 100vh;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem;
+  padding: 2rem 3rem;
+  background: #ffffffee;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #2d3748;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 1rem 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background: #e3f0ff;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  background: #cde2ff;
+  transform: scale(1.02);
+}
+
+a {
+  text-decoration: none;
+  color: #0077ff;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #004fbd;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+strong {
+  font-weight: 700;
+}
